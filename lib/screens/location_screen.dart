@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:clima/utilities/constants.dart';
 import 'package:clima/services/weather.dart';
+import 'package:clima/utilities/constants.dart';
+import 'package:flutter/material.dart';
+
 import 'city_screen.dart';
 
 class LocationScreen extends StatefulWidget {
@@ -21,6 +22,7 @@ class _LocationScreenState extends State<LocationScreen> {
   @override
   void initState() {
     super.initState();
+    print("Done2");
     updateUI(widget.locationWeather);
   }
 
